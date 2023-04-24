@@ -22,6 +22,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Table(name="casestudy")
 public class CaseStudy {
+	///>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 	@Id
 private String caseid;
 private String name;
