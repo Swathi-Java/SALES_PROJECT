@@ -24,6 +24,8 @@ import lombok.NoArgsConstructor;
 @Data
 @Table(name = "employees")
 public class Employee {
+
+     //New changes
 	@Id
 	private String empid;
 	private String name;
