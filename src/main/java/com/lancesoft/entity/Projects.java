@@ -27,5 +27,5 @@ private CaseStudy caseid;
 @OneToOne
 @JoinColumn(name="induid")
 private Industries induid;
-
+private String status;
 }

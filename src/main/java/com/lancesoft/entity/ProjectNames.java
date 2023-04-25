@@ -7,12 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Count {
-  //>>>>>>>>>>>>>>>>>>>>>>>>>>>
-private int employecount;
-private int projectcount;
+public class ProjectNames {
 private String name;
-private String designation;
-private String email;
-private String phone;
 }
